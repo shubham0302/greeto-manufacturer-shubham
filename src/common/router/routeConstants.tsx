@@ -1,0 +1,15 @@
+export const routeConstants = {
+  root: "/",
+  login: "/login",
+  signup: "/signup",
+  home: "/home",
+  productCreate: "/products/create",
+  productDetails: "/products/:productId",
+  products: "/products",
+  settings: "/settings",
+  completeProfile: "/complete-profile",
+  checkUser: "/reset-password/check-user",
+  emailSent: "/reset-password/email/success",
+  changedPassword: "/reset-password/password/success",
+  restPassword: "/reset-password/password-entry",
+};
